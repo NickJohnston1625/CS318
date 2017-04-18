@@ -1,0 +1,14 @@
+
+form{
+    background-color: lightblue;
+    padding: 10px;
+    width:350px;
+}
+
+.size{
+    width: 175px;
+    height: 15px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;   
+}

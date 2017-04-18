@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="icecream.css">
+</head>
+<body>
+    <form action="https://formspree.io/johnstnb@uwec.edu"
+      method="POST">
+        <h1>Chillax Order Form</h1>
+        
+        <div class="size">Who are you? </div><textarea name="name" row="1" cols="20"></textarea>
+        
+        <br>
+        
+        <div class="size">What flavor? </div>
+            <select name="selflav" size="4">
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="mint">Mint Chocolate Chip</option>
+            </select>
+        
+        
+        <br>
+        
+        <div class="size">In what? </div>
+            <select name="selwhat" size="3">
+                <option value="waffle">Waffle</option>
+                <option value="sugar">Sugar</option>
+                <option value="dish">Dish</option>
+            </select>
+            
+        <br>
+        <br>
+        
+        <label><div class="size">Sprinkles? </div><input type="checkbox"></label>
+        
+        <br>
+        <br>
+        
+        <label><div class="size">How messy are you? </div><input type="range" id="slide" min="0" max="3"></label>
+        
+        <br>
+        <div class="size"></div>
+        <input type="submit" id="submit" value="Order" name="order">
+    
+    </form>
+</body>
+</html>

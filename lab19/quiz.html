@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <form action="https://formspree.io/johnstnb@uwec.edu"
+      method="POST">
+        <ol>
+            <li>Question one:
+                <br>
+                Which is the correct answer?
+                <br>
+                <label><input type="radio" name="one" value="no">Not correct</label>
+                <label><input type="radio" name="one" value="no">Not correct</label>
+                <label><input type="radio" name="one" value="yes">Correct</label>
+                <label><input type="radio" name="one" value="no">Not correct</label>
+            </li>
+        
+            <li>Question two:
+                <br>
+                Which of the following are correct?
+                <br>
+                <label><input type="checkbox" name="two" value="yes">Correct</label>
+                <label><input type="checkbox" name="two" value="no">Not correct</label>
+                <label><input type="checkbox" name="two" value="yes">Correct</label>
+                <label><input type="checkbox" name="two" value="no">Not correct</label>
+            </li>
+            
+            <li>Question three: 
+                <br>
+                Complete the following sentence:
+                <br>
+                This is a fill-<textarea name="blank" rows="1" cols="20"></textarea>-the-blank question.
+            </li>
+            
+            <li>Question four:
+                <br>
+                Please write a haiku:
+                <br>
+                <textarea name="essay" rows="10" cols="50" id="essay"></textarea>
+            </li>
+            
+            <li>Question five:
+                <br>
+                Nick Johnston did a good job:
+                <br>
+                <label><input type="radio" name="five" value="yes">True</label>
+                <label><input type="radio" name="five" value="no">False</label>
+            </li>
+        </ol>
+        
+        <input type="submit" id="submit">
+    
+    </form>
+</body>
+</html>
