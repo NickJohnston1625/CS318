@@ -1,0 +1,165 @@
+*{
+    background-color: purple;
+    margin-top: 0;
+}
+
+body{
+    width:800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gainsboro;
+    padding: 0;
+}
+
+.color{
+    background-color: gainsboro;
+}
+
+/* nav stuff */
+li{
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    padding: 6px 6px 15px 6px;
+    
+}
+
+ul{
+    background-color: black;
+    padding-left: 6px;
+    margin-bottom: 0;
+}
+
+nav{
+    height:60px;
+    background-color: black;
+    font-size: 15pt;
+}
+
+.navl{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.dropdown:hover #brodrop{
+    display: block;
+}
+
+#brodrop:hover a{
+    background-color: gray;
+}  
+
+#brodrop{
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 15px 50px 10px 15px;
+    background-color: black;
+}
+
+.dropdown:hover #famousdrop{
+    display: block;
+}
+
+#famousdrop:hover a{
+    background-color: gray;
+}
+
+#famousdrop{
+    display:none;
+    position: absolute;
+    text-align: center;
+    padding: 15px 100px 10px 15px;
+    background-color: black;
+}
+
+/* main stuff */
+
+#headimg{
+    background-image: url(formal.jpg);
+    width: 800px;
+    height: 450px;
+    background-size: contain;
+}
+h1{
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 30px;
+}
+
+h2{
+    background-color: gainsboro;
+    padding-left: 20px;
+}
+.bro{
+    background-color: gainsboro;
+}
+
+.clear{
+    clear: left;
+    
+}
+
+.bro p{
+    background-color: gainsboro;
+    padding: 0px 20px 20px 130px;
+}
+.bropic{
+    width: 100px;
+    height: 100px;
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-size: contain;
+}
+
+.name{
+    font-weight: bold;
+    font: 15pt;
+    background-color: gainsboro;
+}
+
+/* footer stuff */
+footer{
+    background-color: gainsboro;
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
+
+#foot{
+    background-color: gainsboro;
+    width: 200px;
+    margin-left: 10px;
+    
+}
+
+.icon{
+    height: 50px;
+    width:50px;
+    background-size: contain;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    background-color: gainsboro;
+    position: relative;
+    bottom: 70px;
+}
+
+.colorf{
+    background-color: gainsboro;
+}
+
+#facebook{background-image: url(facebookicon.jpg);}
+#twitter{background-image: url(twittericon.png);}
+#instagram{background-image: url(instagramicon.png);}
