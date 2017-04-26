@@ -132,6 +132,7 @@ text-align: center;
     background-color: gainsboro;
     margin-bottom: 20px;
     display: inline-block;
+    text-align: left;
 }
 
 .name{
