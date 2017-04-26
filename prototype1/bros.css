@@ -1,5 +1,4 @@
 *{
-    background-color: purple;
     margin-top: 0;
 }
 
@@ -7,7 +6,7 @@ body{
     width:800px;
     margin-right: auto;
     margin-left: auto;
-    background-color: gainsboro;
+    background-color: purple;
     padding: 0;
 }
 
@@ -21,15 +20,19 @@ li{
     display: inline-block;
     background-color: black;
     position: relative;
-    top: 10px;
-    padding: 6px 6px 15px 6px;
-    
+    padding: 15px 7px 0px 7px;
+    border-left: 2px solid white;
+    height:45px; 
 }
 
+li:first-of-type{
+    border: 0;
+}
 ul{
     background-color: black;
-    padding-left: 6px;
-    margin-bottom: 0;
+    padding-left: 0px;
+    height:0;
+    
 }
 
 nav{
@@ -42,23 +45,50 @@ nav{
     background-color: black;
     color:white;
     text-decoration: none;
+
 }
+
+
+@media (min-width: 700px){
 
 .dropdown{
     position: relative;
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 15px 0px 0px 5px;
     background-color: black;
 }
 
 .dropdown:hover #brodrop{
     display: block;
+    position: absolute;
+    top:60px;
 }
 
-#brodrop:hover a{
+#brodrop:hover {
+    background-color: gray;
+    
+}  
+
+#brodrop:hover a {
     background-color: gray;
 }  
+
+.dropdown:hover #famousdrop{
+    display: block;
+        position: absolute;
+        top:60px;
+}
+
+#famousdrop:hover a{
+    background-color: gray;
+}
+
+#famousdrop:hover {
+    background-color: gray;
+}
+    
+}
 
 #brodrop{
     display: none;
@@ -66,14 +96,6 @@ nav{
     text-align: center;
     padding: 15px 50px 10px 15px;
     background-color: black;
-}
-
-.dropdown:hover #famousdrop{
-    display: block;
-}
-
-#famousdrop:hover a{
-    background-color: gray;
 }
 
 #famousdrop{
@@ -85,6 +107,11 @@ nav{
 }
 
 /* main stuff */
+
+main{margin-bottom: 0;
+    padding-bottom: 20px;
+    background-color: gainsboro;
+}
 
 #headimg{
     background-image: url(formal.jpg);
@@ -132,9 +159,10 @@ h2{
 
 /* footer stuff */
 footer{
+    margin-top: 0;
     background-color: gainsboro;
     padding-bottom: 10px;
-    margin-top: 70px;
+    padding-top: 60px;
 }
 
 #foot{
@@ -163,3 +191,55 @@ footer{
 #facebook{background-image: url(facebookicon.jpg);}
 #twitter{background-image: url(twittericon.png);}
 #instagram{background-image: url(instagramicon.png);}
+
+@media (max-width: 700px){
+    
+    #famousdrop{
+        display: block;
+        background-color: black;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        height:45px;
+    }
+    
+    #brodrop{
+        display: block;
+        background-color: black;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        height:45px;
+    }
+    
+    li{
+        display: block;
+        border-left: 2px solid black;
+    }
+    
+    .dropdown{
+        display: block;
+        text-align: center;
+        height:125px;
+    }
+    
+    #headimg{
+       display: none;
+    }
+    
+    nav{
+        height: 500px;
+        text-align: center;
+    }
+    
+    .navl{
+        display: block;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        border-left: 0px solid black;
+        height:45px;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}
