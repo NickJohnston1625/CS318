@@ -120,7 +120,7 @@ main{margin-bottom: 0;}
 h1{
     background-color: gainsboro;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 h2{
@@ -163,7 +163,7 @@ footer{
     bottom: 70px;
 }
 
-.colorf{
+.color{
     background-color: gainsboro;
 }
 

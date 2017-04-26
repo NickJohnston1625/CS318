@@ -107,7 +107,9 @@ nav{
 }
 
 /* main stuff */
-main{margin-bottom: 0;}
+main{margin-bottom: 0;
+text-align: center;
+}
 
 #contain{
     background-color: gainsboro;
