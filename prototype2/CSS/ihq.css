@@ -1,0 +1,9 @@
+#headimg{
+    background-image: url(../images/fijibanner.jpg);
+    width: 800px;
+    background-size: contain;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+

@@ -1,0 +1,6 @@
+#headimg{
+    background-image: url(../images/socialpic.jpg);
+    width:800px;
+    height: 600px;
+    background-size: contain;
+}

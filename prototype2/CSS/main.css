@@ -28,6 +28,7 @@ li{
 li:first-of-type{
     border: 0;
 }
+
 ul{
     background-color: black;
     padding-left: 0px;
@@ -87,6 +88,8 @@ nav{
 #famousdrop:hover {
     background-color: gray;
 }
+    
+}
 
 #brodrop{
     display: none;
@@ -104,69 +107,51 @@ nav{
     background-color: black;
 }
 
+
 /* main stuff */
-
-main{margin-bottom: 0;
-    padding-bottom: 20px;
-    background-color: gainsboro;
+main{
+    align-content: center;
+    margin-bottom: 0;
 }
 
-#headimg{
-    background-image: url(formal.jpg);
-    width: 800px;
-    height: 450px;
-    background-size: contain;
-}
 h1{
     text-align: center;
-    background-color: gainsboro;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 h2{
-    background-color: gainsboro;
-    padding-left: 20px;
-}
-.bro{
-    background-color: gainsboro;
+    text-align: center;
+    padding-left: 10px;
 }
 
-.clear{
-    clear: left;
+h3{
+    text-align: center;
+    margin-bottom: 0;
 }
 
-.bro p{
-    background-color: gainsboro;
-    padding: 0px 20px 20px 130px;
-}
-.bropic{
-    width: 100px;
-    height: 100px;
-    float:left;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    background-size: contain;
+h4{
+    text-align: center;
 }
 
-.name{
-    font-weight: bold;
-    font: 15pt;
-    background-color: gainsboro;
+blockquote{
+    padding-top: 50px;
 }
+
+.para{
+    padding: 0 30px 0 40px;
+}
+
 
 /* footer stuff */
 footer{
     margin-top: 0;
-    background-color: gainsboro;
     padding-bottom: 10px;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 #foot{
-    background-color: gainsboro;
     width: 200px;
-    margin-left: 10px;
-    
+    margin-left: 10px; 
 }
 
 .icon{
@@ -176,18 +161,16 @@ footer{
     margin: 10px;
     display: inline-block;
     float: right;
-    background-color: gainsboro;
     position: relative;
     bottom: 70px;
 }
 
-.colorf{
-    background-color: gainsboro;
-}
+#facebook{background-image: url(../images/facebookicon.jpg);}
 
-#facebook{background-image: url(facebookicon.jpg);}
-#twitter{background-image: url(twittericon.png);}
-#instagram{background-image: url(instagramicon.png);}
+#twitter{background-image: url(../images/twittericon.png);}
+
+#instagram{background-image: url(../images/instagramicon.png);}
+
 
 @media (max-width: 700px){
     
@@ -218,10 +201,6 @@ footer{
         height:125px;
     }
     
-    .bropic{
-        display: none;
-    }
-    
     #headimg{
        display: none;
     }
@@ -229,11 +208,6 @@ footer{
     nav{
         height: 500px;
         text-align: center;
-    }
-    
-    .bro p{
-        
-        padding: 0px 0px 20px 30px;
     }
     
     .navl{

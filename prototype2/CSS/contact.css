@@ -1,0 +1,10 @@
+#headimg{
+    background-image: url(../images/contactpic.jpg);
+    background-size:auto;
+    width: 800px;
+    height: 400px;
+}
+
+.contact{
+    margin-left: 30px;
+}
