@@ -1,0 +1,225 @@
+*{
+    margin-top: 0;
+}
+
+body{
+    width:800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: purple;
+    padding: 0;
+}
+
+.color{
+    background-color: gainsboro;
+}
+
+/* nav stuff */
+li{
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    padding: 15px 7px 0px 7px;
+    border-left: 2px solid white;
+    height:45px; 
+}
+
+li:first-of-type{
+    border: 0;
+}
+
+ul{
+    background-color: black;
+    padding-left: 0px;
+    height:0;
+    
+}
+
+nav{
+    height:60px;
+    background-color: black;
+    font-size: 15pt;
+}
+
+.navl{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+
+}
+
+
+@media (min-width: 700px){
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 0px 0px 5px;
+    background-color: black;
+}
+
+.dropdown:hover #brodrop{
+    display: block;
+    position: absolute;
+    top:60px;
+}
+
+#brodrop:hover {
+    background-color: gray;
+    
+}  
+
+#brodrop:hover a {
+    background-color: gray;
+}  
+
+.dropdown:hover #famousdrop{
+    display: block;
+        position: absolute;
+        top:60px;
+}
+
+#famousdrop:hover a{
+    background-color: gray;
+}
+
+#famousdrop:hover {
+    background-color: gray;
+}
+    
+}
+
+#brodrop{
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 15px 50px 10px 15px;
+    background-color: black;
+}
+
+#famousdrop{
+    display:none;
+    position: absolute;
+    text-align: center;
+    padding: 15px 100px 10px 15px;
+    background-color: black;
+}
+
+
+/* main stuff */
+main{
+    align-content: center;
+    margin-bottom: 0;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2{
+    text-align: center;
+    padding-left: 10px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h4{
+    text-align: center;
+}
+
+blockquote{
+    padding-top: 50px;
+}
+
+.para{
+    padding: 0 30px 0 40px;
+}
+
+
+/* footer stuff */
+footer{
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+#foot{
+    width: 200px;
+    margin-left: 10px; 
+}
+
+.icon{
+    height: 50px;
+    width:50px;
+    background-size: contain;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+
+#facebook{background-image: url(../images/facebookicon.jpg);}
+
+#twitter{background-image: url(../images/twittericon.png);}
+
+#instagram{background-image: url(../images/instagramicon.png);}
+
+
+@media (max-width: 700px){
+    
+    #famousdrop{
+        display: block;
+        background-color: black;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        height:45px;
+    }
+    
+    #brodrop{
+        display: block;
+        background-color: black;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        height:45px;
+    }
+    
+    li{
+        display: block;
+        border-left: 2px solid black;
+    }
+    
+    .dropdown{
+        display: block;
+        text-align: center;
+        height:125px;
+    }
+    
+    #headimg{
+       display: none;
+    }
+    
+    nav{
+        height: 500px;
+        text-align: center;
+    }
+    
+    .navl{
+        display: block;
+        position: relative;
+        padding: 15px 7px 0px 7px;
+        border-left: 0px solid black;
+        height:45px;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+}

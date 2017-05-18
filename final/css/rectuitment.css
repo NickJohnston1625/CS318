@@ -1,0 +1,30 @@
+#reason{
+    padding: 0 30px 0 30px;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+td{
+    padding: 7px;
+    border: 2px solid black;
+    margin: 0;
+    text-align: center;
+}
+
+th{
+    font-size: 15pt;
+}
+
+
+#headimg{
+    width:800px;
+    height: 275px;
+    background-image: url(../images/Rushfiji.jpg);
+    background-size: contain;
+}

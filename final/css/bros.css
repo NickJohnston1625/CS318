@@ -1,0 +1,124 @@
+#headimg{
+    background-image: url(../images/formal.jpg);
+    width: 800px;
+    height: 450px;
+    background-size: contain;
+}
+
+.clear{
+    clear: left;
+}
+
+.bro p{
+    padding: 0px 20px 20px 130px;
+}
+
+.bropic{
+    width: 100px;
+    height: 100px;
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-size: contain;
+}
+
+.name{
+    font-weight: bold;
+    font: 15pt;
+}
+
+@media (max-width: 700px){
+ 
+    .bropic{
+        display: none;
+    }
+    
+    .bro p{
+        text-align: center;
+        padding: 0 10px 20px 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* pictures */
+
+#bobby{
+    background-image: url(../images/bobby.jpg);
+}
+
+#wes{
+    background-image: url(../images/wes.jpg);
+}
+
+#kyle{
+    background-image: url(../images/kyle1.jpg);
+}
+
+#will{
+    background-image: url(../images/will.jpg);
+}
+
+#bryce{
+    background-image: url(../images/bryce.jpg);
+}
+
+#ceddy{
+    background-image: url(../images/ceddy.jpg);
+}
+
+#dant{
+    background-image: url(../images/dant.jpg);
+}
+
+#beez{
+    background-image: url(../images/beez.jpg);
+}
+
+#nate{
+    background-image: url(../images/Nate.jpg);
+}
+
+#phil{
+    background-image: url(../images/phil.jpg);
+}
+
+#golat{
+    background-image: url(../images/mikey.jpg);
+}
+
+#manny{
+    background-image: url(../images/manny.jpg);
+}
+
+#sebas{
+    background-image: url(../images/);
+}
+
+#miket{
+    background-image: url(../images/gump.jpg);
+}
+
+#farkus{
+    background-image: url(../images/farkus.jpg);
+}
+
+#josh{
+    background-image: url(../images/josh.jpg);
+}
+
+#jer{
+    background-image: url(../images/Jer.jpg);
+}
+
+#casey{
+    background-image: url(../images/casey.jpg);
+}
+
+#connor{
+    background-image: url(../images/connor.jpg);
+}
+
+#luke{
+    background-image: url(../images/lukecarr.jpg);
+}
